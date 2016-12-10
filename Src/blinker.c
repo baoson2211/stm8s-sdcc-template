@@ -23,6 +23,8 @@ int main( void )
     
     while(1)
     {
+        //float _sqrt;
+        //_sqrt = sqrtf(4.0);
         delay(30000);
         GPIOD->ODR ^= GPIO_PIN_7;
         BEEP_Cmd(ENABLE);
