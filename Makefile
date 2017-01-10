@@ -7,7 +7,7 @@ OBJCOPY     = sdobjcopy
 SIZE        = size
 MAKE        = make
 
-TARGET      = blinker
+TARGET      = main
 STDLIB      = STM8S_StdPeriph_Lib/Libraries/STM8S_StdPeriph_Driver
 INCLUDEDIR  = $(STDLIB)/inc Inc
 LIBSRCDIR   = $(STDLIB)/src
