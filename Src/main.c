@@ -1,3 +1,7 @@
+/*
+ * Caution: Please check crystal frequency in stm8s.h
+ */
+
 //#include <stdio.h>
 //#include <math.h>
 //#include <sdcc-lib.h>
