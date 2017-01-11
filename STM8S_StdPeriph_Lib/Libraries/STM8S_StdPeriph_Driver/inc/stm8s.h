@@ -109,7 +109,8 @@
      defined (STM8AF62Ax) || defined (STM8AF622x)
   #define HSE_VALUE ((uint32_t)24000000) /* Value of the External oscillator in Hz*/
  #else
-  #define HSE_VALUE ((uint32_t)16000000) /* Value of the External oscillator in Hz*/
+  // #define HSE_VALUE ((uint32_t)16000000) /* Value of the External oscillator in Hz*/
+  #define HSE_VALUE ((uint32_t) 8000000) /* Value of the External oscillator in Hz on kit*/
  #endif /* STM8S208 || STM8S207 || STM8S007 || STM8AF62Ax || STM8AF52Ax || STM8AF622x */
 #endif /* HSE_Value */
 
