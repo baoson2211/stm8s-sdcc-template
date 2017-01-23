@@ -17,11 +17,24 @@
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
+
+/**
+  * \brief  Delay function.
+  *
+  * \param  [in] t Time delay.
+  * \retval None
+  */
 static void delay(uint32_t t)
 {
     while(t--);
 }
 
+/**
+  * @brief  Main function.
+  *
+  * @param  None.
+  * @retval int
+  */
 int main( void )
 {
     GPIO_Init(GPIOD, GPIO_PIN_7, GPIO_MODE_OUT_PP_LOW_FAST);
