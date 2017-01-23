@@ -1,6 +1,14 @@
-/*
- * Caution: Please check crystal frequency in stm8s.h
- */
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Bao Son Le
+  * @version V1.0.0
+  * @date    23-January-2017
+  * @brief   Template main file.
+  *
+  * @warning Please check crystal frequency in stm8s.h
+  ******************************************************************************
+  */
 
 //#include <stdio.h>
 //#include <math.h>
