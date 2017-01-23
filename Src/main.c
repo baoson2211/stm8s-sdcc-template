@@ -21,7 +21,7 @@
 /**
   * \brief  Delay function.
   *
-  * \param  [in] t Time delay.
+  * \param  [in] t: Time delay.
   * \retval None
   */
 static void delay(uint32_t t)
